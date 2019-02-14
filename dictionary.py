@@ -5,10 +5,14 @@ svg_text = open('svg_text.txt', 'r')
 with open('svg_text.txt', 'r') as f:
     array = [row.strip() for row in f]
 
+print(array)
 
+array = []
 with open('svg_text.txt', 'r') as f:
     for line in f.readlines():
         array.append(line.split())
+
+print(array)
 
 x_ord = {
     'б': 1,
