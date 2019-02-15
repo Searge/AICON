@@ -1,6 +1,11 @@
-with open('text.txt') as f:
-    arr = [''.join(row.split()) for row in f]
+with open('text.txt') as file:
+    arr = [''.join(row.split()) for row in file]
 
 comb = []
-for i in arr:
-    comb.append([i[j:j + 2] for j in range(0, len(i), 2)])
+for sentence in arr:
+    comb.append([sentence[letter:letter + 2] for letter in range(0,
+                                                                 len(sentence),
+                                                                 2)])
+
+# Перевірка
+print(arr, '\n', comb)
