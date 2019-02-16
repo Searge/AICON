@@ -1,11 +1,7 @@
-with open('text.txt') as file:
-    arr = [''.join(row.split()) for row in file]
+with open('text.txt') as f:
+    array = [row.split() for row in f]
 
-comb = []
-for sentence in arr:
-    comb.append([sentence[letter:letter + 2] for letter in range(0,
-                                                                 len(sentence),
-                                                                 2)])
+print(array)
 
-# Перевірка
-print(arr, '\n', comb)
+for item in array:
+    print(' '.join(item))

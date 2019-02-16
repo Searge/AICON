@@ -1,8 +1,14 @@
 from itertools import permutations
 
-array = [[11, 22, 33, 44], [55, 66], [77, 88, 99, 00, 10, 11]]
+array = [['веле', 'лелю', 'лювю', 'вюве'],
+         ['жежю', 'вілі']]
 
 mutatio = []
 
 for elem in array:
-    mutatio.append(list(permutations(elem, len(elem))))
+    mutatio.append(list(permutations(elem)))
+    for item in mutatio:
+        for tup in item:
+            print(' '.join(tup))
+
+# print(mutatio)
