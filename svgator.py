@@ -1,6 +1,6 @@
 
 # file with SVG text
-filepath = '1_s1_dedupped.txt'
+filepath = 'text.txt'
 
 # out files prefix
 outprename = "Set1_"
