@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)
+		З моїми правками.
+		Цікаво, що назва шару в Ілюстраторі задається одразу
+		в оголошенні SVG.
+-->
+<svg version="1.1" id="square"
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	x="0px" y="0px"
+	viewBox="0 0 10 10" 
+	style="enable-background:new 0 0 10 10;" 
+	xml:space="preserve">
+	<!-- Виглядає так, наче <defs> 
+						— взагалі не потрібний
+		бо в оригіналі його не було. 
+		Я додав, щоб побачити, чи будуть якісь зміни.
+		Хоча… ніби правильніше використовувати саме такий формат
+		як нижче:
+						 -->
+	<defs>
+		<style type="text/css">
+			.st0{
+			fill:none;
+			stroke:#000000;
+			stroke-linecap:round;
+			stroke-linejoin:round;
+			stroke-miterlimit:10;
+			}
+		</style>
+	</defs>
+	<!-- 
+		Спробував засунути всі лінії у групу.
+		Воно, нічого не змінює, але цікаво, що можна задавати назву
+		і тоді, в Ілюстраторі зрозуміліше, що саме ти рухаєш.
+	-->
+	<g id="Group">
+		<line id="line1" class="st0" x1="2.5" y1="2.5" x2="7.5" y2="2.5"/>
+		<line id="line2" class="st0" x1="2.5" y1="7.5" x2="2.5" y2="2.5"/>
+		<line id="line3" class="st0" x1="7.5" y1="7.5" x2="7.5" y2="2.5"/>
+		<line id="line4" class="st0" x1="2.5" y1="7.5" x2="7.5" y2="7.5"/>
+	</g>
+</svg>
