@@ -10,21 +10,22 @@
        		<circle cx="128" cy="128" r="10" />
        	</symbol>
    		<style>
-			#circled{
+			.main {
 				fill:none; 
 				stroke:#000;
 				stroke-linecap:round;
 				stroke-linejoin:round;
 				stroke- width:0.5px;
 			}
-			#trans {
-			    stroke: #4BC0A5 !important;
+			.trans {
+			    stroke: #4BC0A5;
 				fill: #A4DFD1;
 			}
 		</style>
        </defs>
    
-   	<use xlink:href="#circled" x="-10" y="-10" id="trans" />
-   	<use xlink:href="#circled" x="10" y="10" />
-   	<use xlink:href="#circled" x="20" y="20" />
+   	<use xlink:href="#circled" x="-10" y="-10" class="main"/>
+	<use xlink:href="#circled" class="trans" />
+   	<use xlink:href="#circled" x="10" y="10" class="main" />
+   	<use xlink:href="#circled" x="20" y="20" class="main" />
 </svg>
