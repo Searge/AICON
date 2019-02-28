@@ -1,5 +1,5 @@
 def swap_each2numbers(x, y):
-    x, y = y, x
+    return y, x
 
 
 with open('text.txt') as f:
