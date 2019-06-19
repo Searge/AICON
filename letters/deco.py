@@ -18,6 +18,11 @@ colors = [
     '#fabebe']
 
 
+def get_color():
+    for color in colors:
+        yield color
+
+
 def svg(func):
     size = 64
     head = f"""<svg viewBox="0 0 {size} {size}" xmlns="http://www.w3.org/2000/svg"
@@ -46,11 +51,6 @@ def defs(func):
     def wrapped():
         return f"{defs_o}\n{style_o}\n{func()}{style_c}\n{text}\n{defs_c}"
     return wrapped
-
-
-def get_color():
-    for color in colors:
-        yield color
 
 
 @svg
