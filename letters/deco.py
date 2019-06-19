@@ -44,7 +44,7 @@ def svg(func):
 
 def defs(func):
     defs_o = "<defs><style>"
-    style_o = "svg {background-color: beige; font: bold 1.6em; opacity: 0.33;}"
+    style_o = "svg {background-color: white; font: bold 2.1em; opacity: 0.03;}"
     style_c = "</style>"
     text = f"""<text id="letter" text-anchor="middle" x="32" y="32">{letter}
             </text>"""
