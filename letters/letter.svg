@@ -1,17 +1,15 @@
 <svg viewBox="0 0 64 64" 
-    xmlns="http://www.w3.org/2000/svg">
-    <style>
-        .helv {font: bold 1.6em "Helvetica", sans-serif; fill: #d66;}
-    </style>
-    <text class="helv" x="48" y="48">
-        SVG
-    </text>
-</svg>
-<!-- <?xml version="1.0" encoding="utf-8"?>
-    <svg version="1.1" id="Letters" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-        <style type="text/css">
-	.helv{font: 1.6em 'Helvetica'; fill:#DD6666;}
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <style>
+        svg {background-color: beige; font: bold 1.6em;}
+        .helv {font-family: "Helvetica", sans-serif; fill: #d66;}
+        .fira {font-family: "Fira Code", sans-serif; fill: #dd6;}
         </style>
-        <text transform="matrix(1 0 0 1 11.7266 35.6375)" class="helv">SVG</text>
-    </svg>
- -->
+        <text id="letter" text-anchor="middle" x="32" y="32">Q</text>
+    </defs>
+    <use xlink:href="#letter" class="helv" />
+    <use xlink:href="#letter" class="fira" />
+
+</svg>
