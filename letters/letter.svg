@@ -1,0 +1,9 @@
+<svg viewBox="0 0 64 64" 
+    xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .helv {font: bold 1.6em "Helvetica", sans-serif; fill: #d66;}
+    </style>
+    <text class="helv" x="48" y="48">
+        SVG
+    </text>
+</svg>
