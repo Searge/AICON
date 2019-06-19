@@ -1,15 +1,21 @@
 letter = 'Q'
 fonts = list()
+
+
+def main():
+    with open('font_code.txt') as f:
+        for line in f:
+            fonts.append(line.rstrip())
+    with open(letter + '.svg', 'w') as f:
+        f.write(style())
+
+
 colors = [
     '#000000', '#808080', '#A6AAAE', '#ffffff', '#fffac8', '#ffd8b1',
     '#B99685', '#9a6324', '#f58231', '#ffe119', '#bcf60c', '#808000',
     '#3cb44b', '#aaffc3', '#46f0f0', '#008080', '#0086A7', '#4363d8',
     '#000075', '#911eb4', '#f032e6', '#e6beff', '#e6194b', '#800000',
     '#fabebe']
-
-with open('font_code.txt') as f:
-    for line in f:
-        fonts.append(line.rstrip())
 
 
 def svg(func):
@@ -59,5 +65,5 @@ def style():
     return ''.join(result)
 
 
-with open(letter + '.svg', 'w') as f:
-    f.write(style())
+if __name__ == "__main__":
+    main()
