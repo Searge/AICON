@@ -4,8 +4,8 @@
     <defs>
         <style>
         svg {background-color: beige; font: bold 1.6em;}
-        .helv {font-family: "Helvetica", sans-serif; fill: #d66;}
-        .fira {font-family: "Fira Code", sans-serif; fill: #dd6;}
+        .helv {font-family: "Helvetica", sans-serif; fill: #d66; opacity: 0.66;}
+        .fira {font-family: "Fira Code", sans-serif; fill: #dd6; opacity: 0.33;}
         </style>
         <text id="letter" text-anchor="middle" x="32" y="32">Q</text>
     </defs>
