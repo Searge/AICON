@@ -1,7 +1,7 @@
 <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs><style>
-svg {background-color: beige; font: bold 1.6em; opacity: 0.33;}
+svg {background-color: white; font: bold 3.2em; fill-opacity: 0.12;}
 .fnt1 {font-family: "Andale Mono"; fill: #000000;}
 .fnt2 {font-family: "Anonymous Pro for Powerline"; fill: #808080;}
 .fnt3 {font-family: "Arimo for Powerline"; fill: #A6AAAE;}
