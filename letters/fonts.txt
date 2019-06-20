@@ -1,25 +1,18 @@
 Andale Mono
 Anonymous Pro for Powerline
 Arimo for Powerline
+Courier Prime
 Cousine for Powerline
-Cutive Mono
 Droid Sans Mono Dotted for Powerline
 Fira Code
 Fira Mono for Powerline
 Hack
 Hasklig
-Inconsolata for Powerline
 Liberation Mono for Powerline
 Meslo LG L DZ for Powerline
 Noto Mono
-Operator Mono
 PT Mono
 Roboto Mono
 Roboto Mono for Powerline
-Sauce Code Powerline
-Share Tech Mono
-Space MonoSparks
-Sparks
-Tinos for Powerline
 Ubuntu Mono derivative Powerline
 monofur for Powerline

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-letter = 'Q'
+letter: str = input('Enter your letter: ')
 fonts = list()
 
 
 def main():
-    with open('font_code.txt') as f:
+    with open('fonts.txt') as f:
         for line in f:
             fonts.append(line.rstrip())
     with open(letter + '.svg', 'w') as f:
@@ -13,11 +13,9 @@ def main():
 
 
 colors = [
-    '#000000', '#808080', '#A6AAAE', '#ffffff', '#fffac8', '#ffd8b1',
-    '#B99685', '#9a6324', '#f58231', '#ffe119', '#bcf60c', '#808000',
-    '#3cb44b', '#aaffc3', '#46f0f0', '#008080', '#0086A7', '#4363d8',
-    '#000075', '#911eb4', '#f032e6', '#e6beff', '#e6194b', '#800000',
-    '#fabebe']
+    '#000000', '#808080', '#A6AAAE', '#ffffff', '#fffac8', '#ffd8b1'
+    '#f58231', '#ffe119', '#bcf60c', '#3cb44b', '#aaffc3', '#46f0f0',
+    '#008080', '#0086A7', '#4363d8', '#911eb4', '#f032e6', '#e6beff']
 
 
 def get_color():
@@ -44,7 +42,7 @@ def svg(func):
 
 def defs(func):
     defs_o = "<defs><style>"
-    style_o = "svg {background-color: white; font: bold 3.2em; fill-opacity: 0.12;}"
+    style_o = "svg {background-color: white; font-size: 1.6em;}"
     style_c = "</style>"
     text = f"""<text id="letter" text-anchor="middle" x="32" y="32">{letter}
             </text>"""
@@ -62,7 +60,8 @@ def style():
     color = get_color()
     i = 1
     for value in fonts:
-        result.append(f'.fnt{i} {{font-family: "{value}"; fill: {next(color)};}}\n')
+        result.append(
+            f'.fnt{i} {{font-family: "{value}"; fill: {next(color)};fill-opacity: 0.12;}}\n')
         i += 1
     return ''.join(result)
 
