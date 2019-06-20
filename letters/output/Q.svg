@@ -1,0 +1,45 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs><style>
+svg {background-color: white; font-size: 1.6em;}
+.fnt1 {font-family: "Andale Mono"; fill: #000000; fill-opacity: 0.12;}
+.fnt2 {font-family: "Anonymous Pro for Powerline"; fill: #808080; fill-opacity: 0.12;}
+.fnt3 {font-family: "Arimo for Powerline"; fill: #A6AAAE; fill-opacity: 0.12;}
+.fnt4 {font-family: "Courier Prime"; fill: #ffffff; fill-opacity: 0.12;}
+.fnt5 {font-family: "Cousine for Powerline"; fill: #fffac8; fill-opacity: 0.12;}
+.fnt6 {font-family: "Droid Sans Mono Dotted for Powerline"; fill: #ffd8b1; fill-opacity: 0.12;}
+.fnt7 {font-family: "Fira Code"; fill: #f58231; fill-opacity: 0.12;}
+.fnt8 {font-family: "Fira Mono for Powerline"; fill: #ffe119; fill-opacity: 0.12;}
+.fnt9 {font-family: "Hack"; fill: #bcf60c; fill-opacity: 0.12;}
+.fnt10 {font-family: "Hasklig"; fill: #3cb44b; fill-opacity: 0.12;}
+.fnt11 {font-family: "Liberation Mono for Powerline"; fill: #aaffc3; fill-opacity: 0.12;}
+.fnt12 {font-family: "Meslo LG L DZ for Powerline"; fill: #46f0f0; fill-opacity: 0.12;}
+.fnt13 {font-family: "Noto Mono"; fill: #008080; fill-opacity: 0.12;}
+.fnt14 {font-family: "PT Mono"; fill: #0086A7; fill-opacity: 0.12;}
+.fnt15 {font-family: "Roboto Mono"; fill: #4363d8; fill-opacity: 0.12;}
+.fnt16 {font-family: "Roboto Mono for Powerline"; fill: #911eb4; fill-opacity: 0.12;}
+.fnt17 {font-family: "Ubuntu Mono derivative Powerline"; fill: #f032e6; fill-opacity: 0.12;}
+.fnt18 {font-family: "monofur for Powerline"; fill: #e6beff; fill-opacity: 0.12;}
+</style>
+<text id="letter" text-anchor="middle" x="32" y="32">Q
+            </text>
+</defs>
+<use xlink:href="#letter" class="fnt0" />
+<use xlink:href="#letter" class="fnt1" />
+<use xlink:href="#letter" class="fnt2" />
+<use xlink:href="#letter" class="fnt3" />
+<use xlink:href="#letter" class="fnt4" />
+<use xlink:href="#letter" class="fnt5" />
+<use xlink:href="#letter" class="fnt6" />
+<use xlink:href="#letter" class="fnt7" />
+<use xlink:href="#letter" class="fnt8" />
+<use xlink:href="#letter" class="fnt9" />
+<use xlink:href="#letter" class="fnt10" />
+<use xlink:href="#letter" class="fnt11" />
+<use xlink:href="#letter" class="fnt12" />
+<use xlink:href="#letter" class="fnt13" />
+<use xlink:href="#letter" class="fnt14" />
+<use xlink:href="#letter" class="fnt15" />
+<use xlink:href="#letter" class="fnt16" />
+<use xlink:href="#letter" class="fnt17" />
+</svg>

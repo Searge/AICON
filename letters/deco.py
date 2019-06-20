@@ -13,7 +13,7 @@ def main():
 
 
 colors = [
-    '#000000', '#808080', '#A6AAAE', '#ffffff', '#fffac8', '#ffd8b1'
+    '#000000', '#808080', '#A6AAAE', '#ffffff', '#fffac8', '#ffd8b1',
     '#f58231', '#ffe119', '#bcf60c', '#3cb44b', '#aaffc3', '#46f0f0',
     '#008080', '#0086A7', '#4363d8', '#911eb4', '#f032e6', '#e6beff']
 
@@ -27,7 +27,7 @@ def svg(func):
     size = 64
     head = f"""<svg viewBox="0 0 {size} {size}" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">"""
-    teil = "</svg>"
+    tail = "</svg>"
 
     def body():
         result = []
@@ -36,7 +36,7 @@ def svg(func):
         return ''.join(result)
 
     def wrapped():
-        return f"{head}\n{func()}\n{body()}{teil}"
+        return f"{head}\n{func()}\n{body()}{tail}"
     return wrapped
 
 
@@ -61,7 +61,7 @@ def style():
     i = 1
     for value in fonts:
         result.append(
-            f'.fnt{i} {{font-family: "{value}"; fill: {next(color)};fill-opacity: 0.12;}}\n')
+            f'.fnt{i} {{font-family: "{value}"; fill: {next(color)}; fill-opacity: 0.12;}}\n')
         i += 1
     return ''.join(result)
 
