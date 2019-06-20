@@ -8,7 +8,7 @@ def main():
     with open('fonts.txt') as f:
         for line in f:
             fonts.append(line.rstrip())
-    with open(letter + '.svg', 'w') as f:
+    with open(f"output/{letter}.svg", 'w') as f:
         f.write(style())
 
 
